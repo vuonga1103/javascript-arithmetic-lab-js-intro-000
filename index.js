@@ -7,11 +7,11 @@ function subtract(a, b) {
 }
 
 function multiply(a, b) {
-  return a - b;
+  return a * b;
 }
 
 function divide(a, b) {
-  return a - b
+  return a / b
 }
 
 function inc(n) {
@@ -23,9 +23,9 @@ function dec(n) {
 }
 
 function makeInt(n) {
-  parseInt(n)
+  return parseInt(n)
 }
 
 function preserveDecimal(n) {
-  parseGloat(n)
+  return parseFloat(n)
 }
